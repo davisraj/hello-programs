@@ -7,8 +7,8 @@ import HeroHeader from "../components/heroHeader"
 
 const IndexPage = ({
   data: {
-    site,
-    allMarkdownRemark: { edges },
+
+      allMarkdownRemark: { edges },
   },
 }) => {
 
@@ -18,11 +18,7 @@ const IndexPage = ({
 
   return (
     <Layout>
-      <Helmet>
-        <title>{site.siteMetadata.title}</title>
-        <meta name="description" content={site.siteMetadata.description} />
-      </Helmet>
-      <HeroHeader/>
+     
       <h2>Blog Posts &darr;</h2>
       <div className="grids">
         {Posts}
@@ -34,12 +30,7 @@ const IndexPage = ({
 export default IndexPage
 export const pageQuery = graphql`
   query indexPageQuery {
-    site {
-      siteMetadata {
-        title
-        description
-      }
-    }
+   
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {

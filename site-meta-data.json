@@ -1,9 +1,9 @@
 {
-  "title": "About",
-  "siteUrl": "https://delog-w3layouts.netlify.com/",
-  "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
+    "title": "www.helloprograms.com",
+    "siteUrl": "https://delog-w3layouts.netlify.com/",
+    "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
     "home": {
-        "title": "Hi! I'm Rajkumar Davis",
+        "title": "Welcome to Helloworld.com",
         "description": "Hello, and welcome to my blog. I am Rajkumar Davis and the content in this blog is a reflection of my thoughts and experiences as I spend my day working on all things related to Java, Agile and Cloud."
     }
 }
